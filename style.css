@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url('https://i.pinimg.com/originals/fe/a9/fb/fea9fb227210fdb349846e970ab61551.png');
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: white;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: white;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+#idade-gato {
+  background-color: white;
+  width: 220px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #009688;
+  border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  background-color: #009688;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #64d2c8;
+  color: #004c45;
+}
+
+h2 {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 1%;
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  background-color: white;
+  color: #009688;
+  border-radius: 10px; 
+}
+
+.citacao{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2%;
+  color: white;
+  font-style: italic;
+  width: 420px
+}
